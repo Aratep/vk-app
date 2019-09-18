@@ -1,0 +1,88 @@
+  
+  .header-img {
+    display: block;
+    width: 110px;
+    height: auto;
+    margin: 20px auto 0;
+}
+  .catalog-banner-img {
+      display: block;
+      width: 100%;
+      margin: 0px auto;
+
+  }
+
+  .catalog .FixedLayout {
+    z-index: 999 !important
+  }
+  .catalog .Panel__in {
+    background-color: white !important;
+  }
+  .catalog .FixedLayout__in{
+    background-color: white;
+    bottom: 0 !important;
+  }
+  .catalog-btns {
+    background-color: white;
+    color: #7d8ca4;
+    border: 1px solid #7d8ca4;
+  }
+  .Button--ios.Button--sz-m {
+    width: 50% !important
+
+  }
+
+  .catalog .indicator{
+    display: none ;
+  }
+
+.catalog .volume-controls{
+  display: none ;
+}
+  .catalog .progress-bar-wrapper > div:first-child {
+    display: none !important
+  }
+  .catalog .toggle-play-wrapper{
+        border-radius: 6px;
+        height: 40px;
+        width: 40px;
+        box-sizing: border-box;
+        flex: 1 0 60px;
+        position: absolute !important;
+        background-color: white;
+        margin-top: -3px;
+        border: 1px solid #7d8ca4;
+  }
+
+  .catalog .total-time {
+    display: none !important
+  }
+  .catalog .current-time {
+    margin-left: 77%;
+    margin-top: -27px;
+    position: absolute;
+    color: #95aac1 !important;
+    font-size: 12px !important;
+  }
+
+   .pause-icon {
+    border-left: 7px solid #5e88d2 !important;
+  }
+   .pause-icon {
+      box-shadow: white 6px 0px 0px 0px inset !important;
+      background-color: #5e88d2 !important;
+      left: 9px !important;
+    }
+
+    .catalog .react-h5-audio-player div:first-child {
+      box-shadow: none !important;
+    }
+
+    .catalog .flex {
+      padding: 17px 0 !important;
+
+    }
+
+    .catalog-list .Group--android{
+      margin: 1px 0 !important
+    }

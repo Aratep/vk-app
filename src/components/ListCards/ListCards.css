@@ -1,0 +1,54 @@
+.audio-img{
+    height: 70px;
+    width: 70px;
+    background-color: #869bc3;
+    position: absolute;
+    margin-top: 0px;
+    z-index: 990;
+    border-radius: 7px;
+}
+
+
+.audio-btns:hover {
+  z-index: -1111;
+  display: none;
+}
+.audio-btns {
+  position: absolute;
+  z-index: 990;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.audio-img img {
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.song-name {
+  position: absolute;
+  z-index: 990;
+  margin-left: 50px;
+  margin-top: 13px;
+  font-size: 16px;
+  color: #444444;
+  height: 80%;
+  width: 72%;
+}
+
+.list-group .Cell--android .Cell__main {
+  padding: 0 !important
+}
+
+.card-title {
+  position: absolute;
+  z-index: 990;
+  margin-top: 30px;
+  margin-left: 50px;
+  font-size: 12px;
+  color: #95aac1;
+}
+
+.card  .Icon .Icon--24 .Icon--chevron_24 .Cell__chevron {
+  margin-top: -2% !important;
+}
